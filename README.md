@@ -7,7 +7,7 @@ This is a [Helm](https://helm.sh) charts repository for Kubernetes for personal 
 To install the Helm repo just run:
 
 ```bash
-helm repo add cetic https://kelvinwijaya.github.io/helm-charts
+helm repo add kw https://kelvinwijaya.github.io/helm-charts
 helm repo update
 ```
 
