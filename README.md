@@ -4,8 +4,10 @@ This is a [Helm](https://helm.sh) charts repository for Kubernetes for personal 
 
 ## Pre-build the chart metadata
 ```
-#Point to (e.g. helm-adminer is the chart repository source code)
+#Generate the helm deployment templates and values into tar ball
 helm package -d adminer ../helm-adminer
+#Update the index.yaml
+helm repo index --url https://kelvinwijaya.github.io/helm-charts/ .
 ```
 
 ### Add Helm repository
