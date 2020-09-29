@@ -2,6 +2,12 @@
 
 This is a [Helm](https://helm.sh) charts repository for Kubernetes for personal usage.
 
+## Pre-build the chart metadata
+```
+#Point to (e.g. helm-adminer is the chart repository source code)
+helm package -d adminer ../helm-adminer
+```
+
 ### Add Helm repository
 
 To install the Helm repo just run:
