@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   adminer:
   - apiVersion: v2
-    created: "2020-09-29T12:42:46.709891+08:00"
+    created: "2020-10-02T16:34:20.567706+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -28,7 +28,7 @@ entries:
     - https://kelvinwijaya.github.io/helm-charts/adminer/adminer-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
-    created: "2020-09-29T12:42:46.706773+08:00"
+    created: "2020-10-02T16:34:20.562571+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -53,4 +53,34 @@ entries:
     urls:
     - https://kelvinwijaya.github.io/helm-charts/adminer/adminer-0.1.5.tgz
     version: 0.1.5
-generated: "2020-09-29T12:42:46.697601+08:00"
+  botkube:
+  - apiVersion: v1
+    appVersion: v0.11.0
+    created: "2020-10-02T16:34:20.570104+08:00"
+    description: Controller for the BotKube Slack app which helps you monitor your
+      Kubernetes cluster, debug deployments and run specific checks on resources in
+      the cluster.
+    digest: 5c984da9e17b2f738c4f591983ba34b629d0ffc1de966e1ca967a4998781d401
+    home: https://www.botkube.io
+    icon: https://www.botkube.io/images/botkube.ico
+    keywords:
+    - botkube
+    - kubernetes
+    - kubernetes-monitoring
+    - kubernetes-controller
+    - kubernetes-bot
+    - chatops
+    - bot
+    - botops
+    maintainers:
+    - email: prasad.ghangal@gmail.com
+      name: PrasadG193
+    - email: sanket@infracloud.io
+      name: ssudake21
+    name: botkube
+    sources:
+    - https://github.com/infracloudio/botkube
+    urls:
+    - https://kelvinwijaya.github.io/helm-charts/botkube/botkube-v0.11.0.tgz
+    version: v0.11.0
+generated: "2020-10-02T16:34:20.556725+08:00"
