@@ -26,3 +26,9 @@ helm repo update
   ```bash
   helm install --name your-release kelvinwijaya/adminer
   ```
+
+*  [botkube](https://github.com/kelvinwijaya/botkube)
+
+  ```bash
+  helm install --name your-release kelvinwijaya/botkube
+  ```
