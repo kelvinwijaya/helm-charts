@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   adminer:
   - apiVersion: v2
-    created: "2020-10-02T18:04:17.115139+08:00"
+    created: "2020-10-02T20:16:38.30259+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -28,7 +28,7 @@ entries:
     - https://kelvinwijaya.github.io/helm-charts/adminer/adminer-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
-    created: "2020-10-02T18:04:17.107733+08:00"
+    created: "2020-10-02T20:16:38.299103+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -55,11 +55,11 @@ entries:
     version: 0.1.5
   botkube:
   - apiVersion: v1
-    created: "2020-10-02T18:04:17.12613+08:00"
+    created: "2020-10-02T20:16:38.312604+08:00"
     description: Controller for the BotKube Slack app which helps you monitor your
       Kubernetes cluster, debug deployments and run specific checks on resources in
       the cluster.
-    digest: d518470bfb069bdf11fd19d9a2fd705ed89c8a33a2d2c9135244f55a9e1a2530
+    digest: 4dbc281463d9efefcfa8458d85c4b9bd4abaa4eeb23db561063fce79ae7a29e7
     home: https://www.botkube.io
     icon: https://www.botkube.io/images/botkube.ico
     keywords:
@@ -84,7 +84,7 @@ entries:
     version: v0.11.1
   - apiVersion: v1
     appVersion: v0.11.0
-    created: "2020-10-02T18:04:17.118588+08:00"
+    created: "2020-10-02T20:16:38.307208+08:00"
     description: Controller for the BotKube Slack app which helps you monitor your
       Kubernetes cluster, debug deployments and run specific checks on resources in
       the cluster.
@@ -112,7 +112,7 @@ entries:
     - https://kelvinwijaya.github.io/helm-charts/botkube/botkube-v0.11.0.tgz
     version: v0.11.0
   - apiVersion: v1
-    created: "2020-10-02T18:04:17.121544+08:00"
+    created: "2020-10-02T20:16:38.31099+08:00"
     description: Controller for the BotKube Slack app which helps you monitor your
       Kubernetes cluster, debug deployments and run specific checks on resources in
       the cluster.
@@ -139,4 +139,4 @@ entries:
     urls:
     - https://kelvinwijaya.github.io/helm-charts/botkube/botkube-v0.11.0m.tgz
     version: v0.11.0m
-generated: "2020-10-02T18:04:17.099128+08:00"
+generated: "2020-10-02T20:16:38.286748+08:00"
