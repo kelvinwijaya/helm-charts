@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  botkube:
+  - apiVersion: v1
+    appVersion: v0.11.0
+    created: "2020-10-02T17:25:45.66121+08:00"
+    description: Controller for the BotKube Slack app which helps you monitor your
+      Kubernetes cluster, debug deployments and run specific checks on resources in
+      the cluster.
+    digest: 8762500f03dfcb6e193142126da314e2895f15fe7a84c9a0d8d6ef7c11938a79
+    home: https://www.botkube.io
+    icon: https://www.botkube.io/images/botkube.ico
+    keywords:
+    - botkube
+    - kubernetes
+    - kubernetes-monitoring
+    - kubernetes-controller
+    - kubernetes-bot
+    - chatops
+    - bot
+    - botops
+    maintainers:
+    - email: prasad.ghangal@gmail.com
+      name: PrasadG193
+    - email: sanket@infracloud.io
+      name: ssudake21
+    name: botkube
+    sources:
+    - https://github.com/infracloudio/botkube
+    urls:
+    - https://kelvinwijaya.github.io/helm-charts/botkube/botkube-v0.11.0.tgz
+    version: v0.11.0
+generated: "2020-10-02T17:25:45.652543+08:00"
